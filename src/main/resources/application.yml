@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cims?serverTimezone=UTC
+    username: root
+    password: 132135138zsl
+  jpa:
+#    更新或者创建数据表结构
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+    port: 9999
